@@ -16,7 +16,7 @@
 # Inherit from common msm8953
 include device/samsung/msm8953-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/j7poplte-common
+LOCAL_PATH := device/samsung/c7prolte-common
 
 # Include board config fragments
 include $(LOCAL_PATH)/board/*.mk

@@ -21,6 +21,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter j7popltespr j7poplteusc, $(TARGET_DEVICE)),)
+ifneq ($(filter c7proltedd, $(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

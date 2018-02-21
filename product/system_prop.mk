@@ -5,7 +5,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Screen
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=267
+	ro.sf.lcd_density=480
 
 # Volume
 PRODUCT_PROPERTY_OVERRIDES += \
