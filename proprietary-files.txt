@@ -7,6 +7,9 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
+# Audio
+-lib/libtfa98xx.so
+
 # Camera
 bin/mm-qcamera-daemon
 lib/hw/camera.msm8953.so:lib/hw/camera.vendor.msm8953.so
