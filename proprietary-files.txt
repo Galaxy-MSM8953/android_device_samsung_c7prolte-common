@@ -1,3 +1,6 @@
+# Audio
+etc/Tfa9897.cnt
+
 # Camera
 bin/mm-qcamera-daemon
 lib/hw/camera.msm8953.so:lib/hw/camera.vendor.msm8953.so
