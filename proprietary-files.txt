@@ -9,10 +9,12 @@ etc/Speaker_cal.acdb
 
 # Audio
 -lib/libtfa98xx.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libdrc.so
 
 # Camera
 bin/mm-qcamera-daemon
-lib/hw/camera.msm8953.so:lib/hw/camera.vendor.msm8953.so
+lib/hw/camera.msm8953.so
 lib/libalawb_algo.so
 lib/libarcsoft_panorama_burstcapture.so
 lib/libarcsoft_wideselfie.so
@@ -541,6 +543,7 @@ etc/firmware/cpp_firmware_v1_10_0.fw
 
 # Sensors
 bin/sensors.qcom
+bin/sensorhubservice
 lib64/hw/sensors.msm8953.so		
 lib/hw/sensors.msm8953.so
 vendor/lib/libsensor1.so
