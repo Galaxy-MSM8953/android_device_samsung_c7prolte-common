@@ -1,6 +1,6 @@
 # Audio TFA
 etc/Tfa9897.cnt
-lib/libtfa98xx.so
+-lib/libtfa98xx.so
 
 # Camera
 bin/mm-qcamera-daemon
