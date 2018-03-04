@@ -1,3 +1,4 @@
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.target.rc
+    init.target.rc \
+    powersnd.rc
