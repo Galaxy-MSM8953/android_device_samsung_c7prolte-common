@@ -24,3 +24,10 @@ LOCAL_MODULE_CLASS         := ETC
 LOCAL_SRC_FILES            := etc/init/powersnd.rc
 LOCAL_MODULE_RELATIVE_PATH := init
 include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE               := servicemanager.rc
+LOCAL_MODULE_CLASS         := ETC
+LOCAL_SRC_FILES            := etc/init/servicemanager.rc
+LOCAL_MODULE_RELATIVE_PATH := init
+include $(BUILD_PREBUILT)
