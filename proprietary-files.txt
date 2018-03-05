@@ -544,9 +544,32 @@ vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so
 vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so
 vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
 
+# Fingerprint
+lib/hw/fingerprint.default.so
+lib64/hw/fingerprint.default.so
+lib/libbauthserver.so
+lib/libbauthtzcommon.so
+lib/libegis_fp_normal_sensor_test.so
+lib/libfidoauthnr_v2.so
+lib/libsynaFpSensorTestNwd.so
+lib64/libbauthserver.so
+lib64/libbauthtzcommon.so
+lib64/libegis_fp_normal_sensor_test.so
+lib64/libfidoauthnr_v2.so
+lib64/libsynaFpSensorTestNwd.so
+
+# NFC
+etc/nfc_key
+etc/nfc/sec_s3nrn81_rfreg.bin
+lib/hw/nfc_nci.msm8953.so
+lib64/hw/nfc_nci.msm8953.so
+vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+
 # Sensors
 bin/sensors.qcom
 bin/sensorhubservice
+etc/firmware/hbtp/hbtpcfg.dat
+etc/firmware/hbtp/qtc800s_dsp.bin
 lib/hw/sensors.msm8953.so
 lib/hw/sensorhubs.msm8953.so
 lib/libsensorhub.so
