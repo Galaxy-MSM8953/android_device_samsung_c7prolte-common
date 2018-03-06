@@ -6,8 +6,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
-    libnfc_nci_jni \
-    libnfc-nci \
     NfcNci \
     Tag
 
