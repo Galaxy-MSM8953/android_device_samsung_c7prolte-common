@@ -1,3 +1,7 @@
+# FingerPrint Sensors
+PRODUCT_PROPERTY_OVERRIDES += \
+        persist.qfp=false
+
 # Radio
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.radio.apm_sim_not_pwdn=1 \
