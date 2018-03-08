@@ -19,9 +19,6 @@ LOCAL_PATH := device/samsung/c7prolte-common
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
-# Include proprietary blobs
-$(call inherit-product, vendor/samsung/c7prolte-common/c7prolte-common-vendor.mk)
-
 # Inherit from common
 $(call inherit-product, device/samsung/msm8953-common/msm8953.mk)
 
@@ -30,6 +27,9 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk
 
 # HWUI
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+
+# Include proprietary blobs
+$(call inherit-product, vendor/samsung/c7prolte-common/c7prolte-common-vendor.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
