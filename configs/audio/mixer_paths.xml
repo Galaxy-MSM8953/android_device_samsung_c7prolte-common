@@ -1142,6 +1142,12 @@
             <ctl name="Headphone Playback Volume" value="31"/>
     </path>
 
+    <path name="headset-mic">
+        <path name="ear-mic" />
+            <ctl name="IN1 Boost Volume" value="44"/>
+            <ctl name="STO1 ADC Capture Volume" value="47"/>
+    </path>
+
     <path name="headphones">
         <path name="headset" />
     </path>
